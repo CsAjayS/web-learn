@@ -1,0 +1,9 @@
+@font-face {
+   font-family: magic-font;
+   src: url('asset/bada.ttf');
+}
+p{
+   color: blue;
+   font-family: magic-font;
+   font-weight: bold;
+}

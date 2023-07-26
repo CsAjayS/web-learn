@@ -7,3 +7,21 @@ p{
    font-family: magic-font;
    font-weight: bold;
 }
+.box1{
+height: 10000px;
+width:100%;
+background-color: aqua;
+
+}
+.box2
+{
+   background-color:yellowgreen;
+   position: sticky;
+   top:1px;
+   left:300px;
+   width: 100px;
+   height: 100px;
+}
+html{
+   scroll-behavior:smooth;
+}

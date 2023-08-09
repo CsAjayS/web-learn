@@ -38,6 +38,7 @@ img{
    text-align: left;
    width: 1000px;
    height: 400px;
+   overflow: hidden;
 }
 button{
    width: 300px;
@@ -55,8 +56,10 @@ button img{
    height: 20px;
    width: 20px;
 }
-#button1{
-   display:inline;
-   width: 100px;
-   background-color: blue;
+h1{
+   display: inline;
+}
+h2{
+   display: inline;
+   padding-left: 40px;
 }

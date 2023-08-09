@@ -1,85 +1,22 @@
 *{
-   margin: 0px;
-   
-   padding: 0px;
+   margin: 0;
+   padding: 0;
    box-sizing: border-box;
+   background-color: #f2ebe9;
 }
-.container{
-overflow-x: hidden;
-overflow-y:auto;
-height: 100vh;
-perspective: 10px;
-
-
-
-
-
-}
-.box{
+#container{
+   overflow-x: hidden;
+   overflow-y: auto;
    display: flex;
-   transform-style: preserve-3d;
-   position: relative;
-
-   height: 100%;
-   align-items: center; 
-   justify-content: center;
-   z-index: -1;
-}
-.background,.foreground{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   z-index: -1;
-   object-fit: cover;
-   
+   height: 100px ;
+   margin-left: 200px;
+   margin-top: 100px;
 
 }
-.background{
-   transform: translateZ(-40px);
-   scale: 5;
-}
-.foreground{
-   transform: translateZ(-20px) ;
-   scale:3;
-   
-}
-.heading{
-   font-size: 90px;
-   padding-bottom: 250px;
-   color: aliceblue;
-   text-shadow: 0 0 20px grey;
-}
-.sec{
-   background-color:rgb(45,45, 45);
-   box-sizing:border-box;
-   
-   color: white;
-   padding: 5rem;
-}
-.bg1{
-background-image: url("asset/sport-1.jpg");
+#box-1{
+   background-color: blue;
 
 }
-.bg2{
-   background-image: url("asset/sport-2.jpg");
-}
-.bg3{
-   background-image: url("asset/sport-3.jpg");
-}
-.bg{
-   position:relative;
-   width: 100%;
-   background-attachment: fixed;
-   height: 500px;
-   background-size: cover;
-   background-position: center;
-   overflow-y: hidden;
-}
-   
-h2{
-font-size: 50px;
-font-style: italic;
-padding-top: 250px;
-padding-left: 640px;
-color: black;
+#box-2{
+background-color: red;
 }

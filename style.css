@@ -1,12 +1,16 @@
-*{
-   margin: 0;
-   padding:0;
-   overflow-y: hidden;
-   overflow-x: auto;
-}
-div image{
-   height: 100vh;
-   width: 100vw;
-background-size: cover;
-display: flexbox;
-}
+body, html {
+   height: 100%;
+ }
+ 
+ .bg {
+   /* The image used */
+   background-image: url("https://media.discordapp.net/attachments/1149031442119143495/1155240830928429146/optimize.gif");
+ 
+   /* Full height */
+   height: 100%;
+ 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
